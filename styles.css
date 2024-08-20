@@ -1,0 +1,115 @@
+
+
+body {
+    background-color: rgb(192, 236, 221);
+}
+
+footer {
+    background-color: rgb(62, 243, 182);
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    padding: 20px;
+    font-size: larger;
+}
+
+p {
+    display: inline-block;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    background-color: aquamarine;
+    margin: 5px;
+    border-radius: 7px;
+    margin-bottom: 30px;
+}
+
+#nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #007bff;
+    font-size: large;
+}
+
+#logo {
+    margin-bottom: 7px;
+}
+
+#about-us {
+    display: flex;
+    justify-content: space-around;
+}
+
+#about-us p {
+    font-size: x-large;
+    padding: 7px;
+    width: 45%;
+}
+
+#about-us img {
+    padding: 7px;
+    width: 45%;
+    height: auto;
+    max-height: 500px;
+}
+
+#dentists {
+    display: flex;
+    flex-direction: column;
+}
+
+.dentist {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.dentist img {
+    width: 45%;
+    height: auto;
+    margin: 15px;
+    margin-right: 20px;
+    min-height: 450px;
+}
+
+.info {
+    flex: 1;
+    margin: 15px;
+    padding-top: 30px;
+}
+
+.info button {
+    margin-top: 40px;
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    background-color: rgb(182, 219, 220);
+    border-radius: 4px;
+    color: rgb(136, 9, 255);
+    border-color: aliceblue;
+}
+
+.info button:hover {
+    background-color: rgb(215, 226, 247);
+}
+
+.dentist p {
+    font-size: x-large;
+}
+
+h2 {
+    display: block;
+    background-color: rgb(130, 197, 200);
+    border-radius: 7px;
+    margin: 15px;
+    height: 70px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: xx-large;
+    color: rgb(87, 132, 217);
+}
